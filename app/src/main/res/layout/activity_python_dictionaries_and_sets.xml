@@ -1,0 +1,411 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".python_Dictionaries_and_Sets">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dictionaries and Sets "
+        android:textColor="@color/box2"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="299dp"
+        android:layout_height="2dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/address"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="703dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Dictionaries"
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text=" In Python, a dictionary is a collection of key-value pairs, where each key is unique and immutable. It is an extremely useful data structure that can be used for fast lookups, efficient data retrieval, and data manipulation."
+                android:textAlignment="textStart"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" To create a dictionary in Python, you can use curly braces {} or the `dict()` function. Here is an example:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:text="my_dict = {'apple': 2, 'banana': 3, 'orange': 1}
+"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" In this example, the keys are 'apple', 'banana', and 'orange', and the values are `2`,`3`, and `1`, respectively."
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" To access the value associated with a key in a dictionary, you can use the square bracket notation with the key as the index. For example:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:contextClickable="true"
+                    android:gravity="center"
+                    android:text="print(my_dict['apple'])"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" This will output '2'."
+                android:textColor="#F44336"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" You can also add or modify key-value pairs in a dictionary using the same square bracket notation:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:contextClickable="true"
+                    android:gravity="center"
+                    android:text="my_dict['grape'] = 4  # adds a new key-value
+                    pairmy_dict['apple'] = 3  # modifies an existing value"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" To remove a key-value pair from a dictionary, you can use the `del' keyword:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:contextClickable="true"
+                    android:gravity="center"
+                    android:text="del my_dict['orange']"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text="You can also use various built-in methods to manipulate and access the keys and values in a dictionary, such as keys(), values(), and items(). For example:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="@color/bg">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="values = my_dict.values()  # returns a list of values"
+                    android:textColor="@color/background"
+                    android:textSize="16sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="keys = my_dict.keys()  # returns a list of keys"
+                    android:textColor="@color/background"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="68dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text=" items = my_dict.items()  # returns a list of key-value pairs"
+                    android:textColor="@color/background"
+                    android:textSize="16sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="0dp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" Sets"
+                android:textColor="@color/box2"
+                android:textSize="30dp"
+                android:textAlignment="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/address"
+                app:layout_constraintEnd_toEndOf="@+id/textView4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" In Python, a set is an unordered collection of unique elements. It is an extremely useful data structure for checking membership, removing duplicates, and performing set operations such as intersection and union."
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text="To create a set in Python, you can use curly braces {} or the set() function. Here is an example:."
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:contextClickable="true"
+                    android:gravity="center"
+                    android:text="my_set = {1, 2, 3}"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In this example, the set contains the elements `1`, `2`, and `3`."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To add an element to a set, you can use the `add()` method:"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:text="my_set.add(4)"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To remove an element from a set, you can use the `remove()` method:"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:text="my_set.remove(2)"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text=" Python also provides various set operations such as intersection (`&amp;`), union (`|`), and difference (`-`) that can be used to combine or subtract sets. For example:"
+                android:textColor="@color/box2"
+                android:textSize="16sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg">
+
+                <TextView
+                    android:layout_width="392dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentTop="false"
+                    android:id="@+id/b5"
+                    android:textColor="#FAF4F4"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

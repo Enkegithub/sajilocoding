@@ -1,0 +1,305 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Introduction_to_Programming_c">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Introduction to C Programming"
+        android:textColor="@color/box2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/address"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="703dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" History of C Language:"
+                android:textAlignment="center"
+                android:textColor="@color/box3"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C language was developed by Dennis Ritchie at the Bell Laboratories in 1972. C language uses many features of the ALGO, BCPL and B Languages. It also added new concepts of the “data type” and many powerful features. Unix operating system is totally coded in C language. In 1983 American National Standard Institute (ANSI) appoint a technical committee to define  a standard of C. The committee approved a version of c in December 1989 which is now known as ANSI C. It was the approved by the International Standards Organization (ISO) in 1990.This version of the c is also referred as C89."
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to C:"
+                android:textAlignment="center"
+                android:textColor="@color/box3"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C is a general-purpose programming language, and is used for writing programs in many different domains, such as operating systems, numerical computing, graphical applications, etc. It is a small language, with just 32 keywords. It provides “high-level” structured programming constructs such as statement grouping, decision making, and looping, as well as “low level” capabilities such as the ability to manipulate bytes and addresses."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Much of the functionality of C is provided by way of software routines called functions. The language is accompanied by a standard library of functions that provide a collection of commonly used operations. For example, the standard function printf() prints text to the screen (or, more precisely, to standard output—which is typically the screen). The standard library will be used
+extensively throughout this text; it is important to avoid writing your own code when a correct and portable implementation already exists."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features of C programming Language:"
+                android:textAlignment="center"
+                android:textColor="@color/box3"
+                android:textSize="19sp"
+                android:justificationMode="inter_word"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="1.It is Robust Language."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="2.The C Compiler combines the features of the assembly language and high level language."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="3.Programs written in C languages are very efficient and fast because of  its variety of data types and powerful operators."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="4.There are several inbuilt functions which is used to build any program."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="5.There are 32 keywords in C Which is used to make the program."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="6.C is highly portable language."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="7. C language is suitable for structure programming. This modular structure makes program debugging, testing and maintenance easier."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="8.The ability to extend itself.It means we can add our own functions into the c library."
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applications of C language:"
+                android:textAlignment="center"
+                android:textColor="@color/box3"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C was initially used for system development work, in particular the programs that make up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as code written in assembly language. Some examples of the use of C might be: "
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="1.Operating Systems"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="2.Language Compilers"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="3.Assemblers"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="4.Text Editors"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="5. Print Spoolers"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="6.Network Drivers"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="7.Modern Programs"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="8.Databases"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="9.Language Interpreters"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="10. Utilities"
+                android:textColor="@color/purplee"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

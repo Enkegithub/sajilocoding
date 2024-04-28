@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#A80B0B</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btc">#B0C4DE</color>
+    <color name="txc">#B9BBCE</color>
+    <color name="bg">#26294C</color>
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+    <color name="trans">#FFFF00</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+// login register form
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lavender">#8692f7</color>
+    ////dashbord  box all color
+    <color name="box">#3AC9FA</color>
+    <color name="box1">#6352CA</color>
+    <color name="box2">#1B3364</color>
+    <color name="box3">#DC8E47</color>
+    <color name="purplee">#61608F</color>
+    <color name="grey">#DDDDDD</color>
+
+    /////background color
+
+    <color name="bg0">#ACBDAA</color>
+    <color name="txt">#1E2D4c</color>
+
+
+    ////profile //
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+
+
+
+
+
+
+
+
+</resources>

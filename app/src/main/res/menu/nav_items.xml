@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashbord_db"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/dashbord" />
+
+
+
+        <item android:title="Other"
+            tools:ignore="HardcodedText">
+
+            <menu>
+
+                <item
+                    android:id="@+id/feedback"
+                    android:icon="@drawable/ic_baseline_feedback_24"
+                    android:title="feedback" />
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/dfo"
+                    android:icon="@drawable/deve"
+                    android:title="Developer" />
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Subject"
+            tools:ignore="HardcodedText">
+
+            <menu>
+
+                <item
+                    android:id="@+id/android"
+                    android:icon="@drawable/android"
+                    android:title="Android" />
+                <item
+                    android:id="@+id/javaa"
+                    android:icon="@drawable/java"
+                    android:title="Java" />
+
+                <item
+                    android:id="@+id/Clag"
+                    android:icon="@drawable/c"
+                    android:title="C Language" />
+                <item
+                    android:id="@+id/pyt"
+                    android:icon="@drawable/python"
+                    android:title="Puthon"/>
+                <item
+                    android:id="@+id/cp"
+                    android:icon="@drawable/c_plus"
+                    android:title="C++"/>
+
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+
+</menu>

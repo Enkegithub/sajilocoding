@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sajilo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="swipe_left_for_register">Click for Register</string>
+    <string name="swipe_left_for_login">Click For Login</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <!--     FOR NAVIGATION BAR OPEN AND COLSE -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="this_is_demo_page_for_user">This is demo page for user</string>
+    <string name="dashbord">Dashbord</string>
+    <string name="others">Others</string>
+    <string name="codin_with_sajilo">Codin With Codex</string>
+
+
+    <string name="title1">Welcome</string>
+    <string name="title2">Log in</string>
+    <string name="title3">Old Paper</string>
+    <string name="title4">More Sooon....</string>
+    <string name="description1">Thanks for downloading Sajilo Coding appp.this app will help you find the best way yo learn.</string>
+    <string name="description2">Log in to your account or sign up if you do not already have one or just login using Id Password account.</string>
+    <string name="description3">Find the Old Exam paper  which you wanna read .</string>
+    <string name="description4">Our Other Application Coming Soon....</string>
+    <string name="sazilo_coding">Sazilo Coding</string>
+    <string name="head">Codin with Sazilo</string>
+
+
+    ////////////PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON/PYTHON///
+    <string name="whatis">Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</string>
+    <string name="include_stdio_h"><![CDATA[#include<stdio.h>]]></string>
+    <string name="include_conio_h"><![CDATA[#include <conio.h>]]></string>
+    <string name="_1_the_first_line_of_the_program_include_stdio_h_is_a_preprocessor_command_which_tells_a_c_compiler_to_include_stdio_h_file_before_going_to_actual_compilation"><![CDATA[1. The first line of the program #include <stdio.h> is a preprocessor command, which tells a C compiler to include stdio.h file before going to actual compilation.]]></string>
+    <string name="ampersand"><![CDATA[& ampersand]]></string>
+    <string name="opening_angle_bracket"><![CDATA[< opening angle bracket]]></string>
+    <string name="b">/b</string>
+    <string name="char_a_7_crewera_the_compiler_allocates_the_7_bytes_to_the_a_array">char a[7] = crewera; // The compiler allocates the 7 bytes to the a array.</string>
+    <string name="char_a_crewera_the_compiler_allocates_the_memory_at_the_run_time">char a[] = crewera; // The compiler allocates the memory at the run time.</string>
+    <string name="char_a_7_c_r_e_w_e_r_a_0_string_is_represented_in_the_form_of_characters">char a[7] = {\'c\',\'r\',\'e\',\'w\',\'e\',\'r\',\'a\',\'0\'}; // String is represented in the form of characters.</string>
+    <string name="class_name"><![CDATA[<class_name>(){}]]></string>
+    <string name="handling_of_data_functions_in_pop"><![CDATA[Handling of data & functions in POP]]></string>
+
+    String name = getColoredSpanned("Hiren", "#800000");
+    String surName = getColoredSpanned("Patel","#000080");
+
+
+</resources>

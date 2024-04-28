@@ -1,0 +1,133 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Introduction_to_Programming_c">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Introduction to Programming"
+        android:textColor="@color/box2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/address"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="703dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" History of Programming and Programming Languages:"
+                android:textAlignment="center"
+                android:textColor="@color/box3"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/grey" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The native language of a computer is binary—ones and zeros—and all instructions and data must be provided to it in this form. Native binary code is called machine language. The earliest digital electronic computers were programmed directly in binary, typically via punched cards, plug-boards, or front-panel switches. Later, with the advent of terminals with keyboards and monitors, such programs were written as sequences of hexadecimal numbers, where each hexadecimal digit represents a four binary digit sequence. Developing correct programs in machine language is tedious and complex, and practical only for very small programs."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In order to express operations more abstractly, assembly languages were developed. These languages have simple mnemonic instructions that directly map to a sequence of machine language operations. For example, the MOV instruction moves data into a register, the ADD instruction adds the contents of two registers together. Programs written in assembly language are translated to machine code using an assembler program. While assembly languages are a considerable improvement on raw binary, they still very low-level and unsuited to large-scale programming. Furthermore, since each processor provides its own assembler dialect, assembly language programs tend to be non-portable; a program must be rewritten to run on a different machine."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The 1950s and 60s saw the introduction of high-level languages, such as Fortran and Algol. These languages provide mechanisms, such as subroutines and conditional looping constructs, which greatly enhance the structure of a program, making it easier to express the progression of instruction execution; that is, easier to visualize program flow. Also, these mechanisms are an abstraction of the underlying machine instructions and, unlike assembler, are not tied to any particular hardware. Thus, ideally, a program written in a high-level language may be ported to a different machine and run without change. To produce executable code from such a program, it is translated to machine specific assembler language by a compiler program, which is then converted to machine code by an assembler (see Appendix B for details on the compilation process)."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compiled code is not the only way to execute a high-level program. An alternative is to translate the program on-the-fly using an interpreter program (e.g., Matlab, Python, etc). Given a text-file containing a high-level program, the interpreter reads a high-level instruction and then executes the necessary set of low-level operations. While usually slower than a compiled program, interpreted code avoids the overhead of compilation-time and so is good for rapid implementation and testing. Another alternative, intermediate between compiled and interpreted code, is provided by a virtual machine (e.g., the Java virtual machine), which behaves as an abstract-machine layer on top of a real machine. A high-level program is compiled to a special byte-code rather than machine language, and this intermediate code is then interpreted by the virtual machine program. Interpreting byte code is usually much faster than interpreting high-level code directly. Each of these representations has is relative advantages: compiled code is typically fastest, interpreted code is highly portable and quick to implement and test, and a virtual machine offers a combination of speed and portability."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The primary purpose of a high-level language is to permit more direct expression of a programmer’s design. The algorithmic structure of a program is more apparent, as is the flow of information between different program components. High-level code modules can be designed to “plug” together piece-by-piece, allowing large programs to be built out of small, comprehensible parts. It is important to realize that programming in a high-level language is about communicating a software design to programmers not to the computer. Thus, a programmer’s focus should be on modularity and readability rather than speed. Making the program run fast is (mostly) the compiler’s concern."
+                android:textAlignment="center"
+                android:textColor="@color/box2"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/address"
+                app:layout_constraintEnd_toEndOf="@+id/textView4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
